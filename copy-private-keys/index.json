@@ -1,0 +1,29 @@
+{
+  "title": "Copy SSH private key",
+  "description": "Get SSH private key from client",
+  "difficulty": "beginner",
+  "time": "2 minutes",
+  "details": {
+    "steps": [{
+      "title": "Connect between hosts",
+      "text": "step1.md"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": "JrCs",
+      "courseData": "courseBase.sh"
+    },
+    "assets": {
+      "host01": [{"file": "courseBase.sh", "target": "/root"}]
+    }
+  },
+  "environment": {
+    "hideintro": true,
+    "hidefinish": true,
+    "uilayout": "terminal-terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster"
+  }
+}
